@@ -1,0 +1,11 @@
+test_homepage:
+    path:     /index/{name} 
+    defaults: { _controller: testBundle:Default:index }
+
+test_add:
+    path:     /add 
+    defaults: { _controller: testBundle:Default:add }
+    
+test_viewDonataire:
+    path:     /viewDonataire 
+    defaults: { _controller: testBundle:Default:viewDonataire }
